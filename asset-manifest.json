@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/RoopamTyagi/static/css/main.0ed0700d.css",
+    "main.js": "/RoopamTyagi/static/js/main.a639947b.js",
+    "static/js/787.121b6d2f.chunk.js": "/RoopamTyagi/static/js/787.121b6d2f.chunk.js",
+    "static/media/RoopamCV.pdf": "/RoopamTyagi/static/media/RoopamCV.433e8369bfb85bc0188d.pdf",
+    "static/media/ProfileImage.png": "/RoopamTyagi/static/media/ProfileImage.ca65845117e5c45b645b.png",
+    "static/media/ProfileImg.png": "/RoopamTyagi/static/media/ProfileImg.524f067266d29f34bb7e.png",
+    "index.html": "/RoopamTyagi/index.html",
+    "main.0ed0700d.css.map": "/RoopamTyagi/static/css/main.0ed0700d.css.map",
+    "main.a639947b.js.map": "/RoopamTyagi/static/js/main.a639947b.js.map",
+    "787.121b6d2f.chunk.js.map": "/RoopamTyagi/static/js/787.121b6d2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ed0700d.css",
+    "static/js/main.a639947b.js"
+  ]
+}
