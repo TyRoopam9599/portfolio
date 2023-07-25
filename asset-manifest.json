@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0ed0700d.css",
-    "main.js": "/portfolio/static/js/main.84e7616a.js",
-    "static/js/787.121b6d2f.chunk.js": "/portfolio/static/js/787.121b6d2f.chunk.js",
-    "static/media/RoopamCV.pdf": "/portfolio/static/media/RoopamCV.433e8369bfb85bc0188d.pdf",
-    "static/media/ProfileImage.png": "/portfolio/static/media/ProfileImage.ca65845117e5c45b645b.png",
-    "static/media/ProfileImg.png": "/portfolio/static/media/ProfileImg.524f067266d29f34bb7e.png",
-    "index.html": "/portfolio/index.html",
-    "main.0ed0700d.css.map": "/portfolio/static/css/main.0ed0700d.css.map",
-    "main.84e7616a.js.map": "/portfolio/static/js/main.84e7616a.js.map",
-    "787.121b6d2f.chunk.js.map": "/portfolio/static/js/787.121b6d2f.chunk.js.map"
+    "main.css": "/TyRoopam9599/portfolio/blob/main/src/App.jsx/static/css/main.0ed0700d.css",
+    "main.js": "/TyRoopam9599/portfolio/blob/main/src/App.jsx/static/js/main.eb6bffc8.js",
+    "static/js/787.121b6d2f.chunk.js": "/TyRoopam9599/portfolio/blob/main/src/App.jsx/static/js/787.121b6d2f.chunk.js",
+    "static/media/RoopamCV.pdf": "/TyRoopam9599/portfolio/blob/main/src/App.jsx/static/media/RoopamCV.433e8369bfb85bc0188d.pdf",
+    "static/media/ProfileImage.png": "/TyRoopam9599/portfolio/blob/main/src/App.jsx/static/media/ProfileImage.ca65845117e5c45b645b.png",
+    "static/media/ProfileImg.png": "/TyRoopam9599/portfolio/blob/main/src/App.jsx/static/media/ProfileImg.524f067266d29f34bb7e.png",
+    "index.html": "/TyRoopam9599/portfolio/blob/main/src/App.jsx/index.html",
+    "main.0ed0700d.css.map": "/TyRoopam9599/portfolio/blob/main/src/App.jsx/static/css/main.0ed0700d.css.map",
+    "main.eb6bffc8.js.map": "/TyRoopam9599/portfolio/blob/main/src/App.jsx/static/js/main.eb6bffc8.js.map",
+    "787.121b6d2f.chunk.js.map": "/TyRoopam9599/portfolio/blob/main/src/App.jsx/static/js/787.121b6d2f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ed0700d.css",
-    "static/js/main.84e7616a.js"
+    "static/js/main.eb6bffc8.js"
   ]
 }
