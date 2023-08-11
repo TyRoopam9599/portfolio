@@ -68,7 +68,6 @@ header {
 
 
 @media screen and (max-width: 1024px) {
-
   header {
       height: 90vh;
   }
@@ -78,7 +77,6 @@ header {
   header {
       height: 90vh;
   }
-
   .profile {
       padding: 2rem 0;
       width: 20rem;

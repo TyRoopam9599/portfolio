@@ -1,18 +1,33 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0ed0700d.css",
-    "main.js": "/portfolio/static/js/main.84e7616a.js",
+    "main.css": "/portfolio/static/css/main.fb1f6b71.css",
+    "main.js": "/portfolio/static/js/main.f4058431.js",
     "static/js/787.121b6d2f.chunk.js": "/portfolio/static/js/787.121b6d2f.chunk.js",
-    "static/media/RoopamCV.pdf": "/portfolio/static/media/RoopamCV.433e8369bfb85bc0188d.pdf",
+    "static/media/FitnessClub.png": "/portfolio/static/media/FitnessClub.d4c0bcd83e46e03fbe1d.png",
+    "static/media/Spotify.png": "/portfolio/static/media/Spotify.23c1e3696f13c4ba595a.png",
+    "static/media/ExpoMap.png": "/portfolio/static/media/ExpoMap.efcfc55454c112a836d1.png",
+    "static/media/TypoTune.png": "/portfolio/static/media/TypoTune.d6a7e4de83804758715a.png",
+    "static/media/RoopamCV.pdf": "/portfolio/static/media/RoopamCV.00c1f1e569f0c6590306.pdf",
     "static/media/ProfileImage.png": "/portfolio/static/media/ProfileImage.ca65845117e5c45b645b.png",
+    "static/media/React_TCS.png": "/portfolio/static/media/React_TCS.387073451f24713b2b20.png",
+    "static/media/BlogApp.png": "/portfolio/static/media/BlogApp.8b7ddd52ae6ae99de524.png",
+    "static/media/cpp.png": "/portfolio/static/media/cpp.f634e3fb7028aef3b26c.png",
+    "static/media/TicTacToe.png": "/portfolio/static/media/TicTacToe.cddfbd30cc7b1fd74632.png",
+    "static/media/Kaggle.png": "/portfolio/static/media/Kaggle.48db0d540813b1dd338f.png",
+    "static/media/TodoList.png": "/portfolio/static/media/TodoList.8cf71e9103efb8003299.png",
+    "static/media/HtmlCertification.png": "/portfolio/static/media/HtmlCertification.d4b4d9fbdaacdecb5ef0.png",
+    "static/media/Logo.png": "/portfolio/static/media/Logo.1d9715104925f5477853.png",
+    "static/media/ExpoFirebase.png": "/portfolio/static/media/ExpoFirebase.5c3d592be63aa2b59dd7.png",
+    "static/media/RatInMaze.png": "/portfolio/static/media/RatInMaze.55d40b8b4b59a82a2c24.png",
+    "static/media/PingPong.png": "/portfolio/static/media/PingPong.8401b097bbcbf6055f19.png",
     "static/media/ProfileImg.png": "/portfolio/static/media/ProfileImg.524f067266d29f34bb7e.png",
     "index.html": "/portfolio/index.html",
-    "main.0ed0700d.css.map": "/portfolio/static/css/main.0ed0700d.css.map",
-    "main.84e7616a.js.map": "/portfolio/static/js/main.84e7616a.js.map",
+    "main.fb1f6b71.css.map": "/portfolio/static/css/main.fb1f6b71.css.map",
+    "main.f4058431.js.map": "/portfolio/static/js/main.f4058431.js.map",
     "787.121b6d2f.chunk.js.map": "/portfolio/static/js/787.121b6d2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ed0700d.css",
-    "static/js/main.84e7616a.js"
+    "static/css/main.fb1f6b71.css",
+    "static/js/main.f4058431.js"
   ]
 }
