@@ -1,55 +1,60 @@
-import React from 'react'
-import "./About.css"
-import ProfileImg from "../../Assets/ProfileImg.png"
-import { FaAward } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
-import { VscFolderLibrary } from 'react-icons/vsc'
+import React from "react";
+import "./About.css";
+import ProfileImg from "../../Assets/ProfileImg.png";
+import { FaAward } from "react-icons/fa";
+import { FiUsers } from "react-icons/fi";
+import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
-    <section id='about'>
+    <section id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
-      <div className='container about__container'>
-
+      <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ProfileImg} alt='About Image' />
+            <img src={ProfileImg} alt="About Image" />
           </div>
         </div>
 
         <div className="about__content">
-          <div className='about__cards'>
-            <article className='about__card'>
-              <FaAward className='about__icon' />
+          <div className="about__cards">
+            <article className="about__card">
+              <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ year Working</small>
+              <small>6+ months Working</small>
             </article>
 
-            <article className='about__card'>
+            {/* <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
-              <small>300+ Clients</small>
-            </article>
+              <small>0 Clients</small>
+            </article> */}
 
-            <article className='about__card'>
-              <VscFolderLibrary className='about__icon' />
+            <article className="about__card">
+              <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>30+ Completed</small>
+              <small>10+ Completed</small>
             </article>
-
           </div>
 
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quasi recusandae aut nobis, commodi a molestias eos id placeat velit ea. Autem possimus quae ipsum odit cupiditate nostrum illum ea?
+          <p style={{textAlign:'justify'}}>
+            I am a dedicated and curious Computer Science undergraduate with a
+            strong passion for programming. I am eager to explore new challenges
+            and expand my knowledge in the field. An enthusiastic team player
+            with a positive attitude, committed to collaborating effectively to
+            achieve shared goals. I am eager to learn and find optimal solutions
+            while actively sharing knowledge with others.
           </p>
 
-          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

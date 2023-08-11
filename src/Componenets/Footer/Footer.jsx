@@ -1,11 +1,14 @@
 import React from 'react'
 import "./Footer.css"
-import { SiLinkedin } from 'react-icons/si'
+import Logo from '../../Assets/Logo.png';
+import { SiLinkedin, SiGithub } from 'react-icons/si'
+
 const Footer = () => {
   return (
     <footer>
-      <a href='' className='footer__logo'>LOGO</a>
-
+      <a href='' className='footer__logo'>
+      <img src={Logo} alt="Logo" className="logo-img" />
+      </a>
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
         <li><a href='#about'>About</a></li>
@@ -17,6 +20,7 @@ const Footer = () => {
 
       <div className="footer__socials">
         <a href='https://www.linkedin.com/in/roopamtyagi'><SiLinkedin size={25}/></a>
+        <a href='https://github.com/TyRoopam9599'><SiGithub size={25}/></a>
       </div>
 
     </footer>

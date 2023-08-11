@@ -1,29 +1,29 @@
 import React from 'react'
 import "./Certification.css"
-import {Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination } from 'swiper'
+import {Swiper, SwiperSlide, } from 'swiper/react'
+import { Pagination, Autoplay } from 'swiper'
 import 'swiper/css';
 import 'swiper/css/pagination'
-import ProfileImge from "../../Assets/ProfileImg.png"
+import {HtmlCertification, Kaggle, React_TCS} from "../../Assets/Images"
 
 const Certifications = () => {
   const data = [
     {
       id: 1,
-      title: 'HTML',
-      Img: ProfileImge,
-      Org: 'Linkedln Learning'
+      title: 'TCS AsCenD',
+      Img: React_TCS,
+      Org: 'TCS' 
     },
     {
       id: 2,
-      title: 'TCS AsCenD',
-      Img: ProfileImge,
-      Org: 'TCS' 
+      title: 'HTML',
+      Img: HtmlCertification,
+      Org: 'Linkedln Learning'
     },
     {
       id: 3,
       title: 'Certification Title',
-      Img: ProfileImge,
+      Img: Kaggle,
       Org: 'Kaggle'
     }
   ]
@@ -33,9 +33,14 @@ const Certifications = () => {
       <h2>Certifications</h2>
 
       <Swiper className='container certification__container'
-        modules={[Pagination]} 
+        modules={[Pagination, Autoplay]} 
         spaceBetween={20}
         slidesPerView={1}
+        autoplay={{
+          delay:2500,
+          disableOnInteraction: true
+        }}
+        scrollbar={{draggable:true}}
         pagination={{clickable: true}}
         >
           {

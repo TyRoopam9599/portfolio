@@ -1,9 +1,9 @@
 footer{
     background: var(--color-primary);
-    padding: 3rem 0;
+    padding: 1rem 0;
     text-align: center;
     font-size: 0.9rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 
 footer a{
@@ -11,11 +11,17 @@ footer a{
 }
 
 .footer__logo{
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    display: block;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.logo-img {
+    width: 250px; /* Ensure the image doesn't exceed its container */
+    height: 250px; /* Ensure the image doesn't exceed its container */
+    object-fit: contain; /* or use `object-fit: cover;` as per your design preference */
+  }
 
 .permalinks{
     display: flex;
