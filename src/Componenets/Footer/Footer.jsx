@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Footer.css"
 import Logo from '../../Assets/Logo.png';
-import { SiLinkedin, SiGithub } from 'react-icons/si'
+import { SiLinkedin, SiGithub, SiMedium} from 'react-icons/si'
 
 const Footer = () => {
   return (
@@ -21,6 +21,7 @@ const Footer = () => {
       <div className="footer__socials">
         <a href='https://www.linkedin.com/in/roopamtyagi'><SiLinkedin size={25}/></a>
         <a href='https://github.com/TyRoopam9599'><SiGithub size={25}/></a>
+        <a href='https://medium.com/@roopamtyagi72' target='blank'><SiMedium size={25}/></a>
       </div>
 
     </footer>
