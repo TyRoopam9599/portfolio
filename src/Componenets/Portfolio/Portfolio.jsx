@@ -1,6 +1,5 @@
 import React from "react";
 import "./Portfolio.css";
-import ProjectImg from "../../Assets/Portfolio/FitnessClub.png";
 import {
   BlogApp,
   Cpp,
@@ -13,10 +12,18 @@ import {
   TicTacToe,
   TodoList,
   TypoTune,
+  MileMarker
 } from "../../Assets/Images";
 
 const Portfolio = () => {
   const data = [
+    {
+      id: 12,
+      image: MileMarker,
+      title: "Mile Marker (Working)",
+      github: "https://github.com/TyRoopam9599/Exp_MileMarker",
+      demo: ""
+    },
     {
       id: 1,
       image: FitnessClub,
