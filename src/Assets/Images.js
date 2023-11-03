@@ -9,6 +9,7 @@ export const TodoList = require('../Assets/Portfolio/TodoList.png');
 export const TypoTune = require('../Assets/Portfolio/TypoTune.png');
 export const Cpp = require('../Assets/Portfolio/cpp.png');
 export const Spotify = require("../Assets/Portfolio/Spotify.png");
+export const MileMarker = require('../Assets/Portfolio/MileMarker.png');
 
 export const HtmlCertification = require('../Assets/Certificates/HtmlCertification.png');
 export const Kaggle = require('../Assets/Certificates/Kaggle.png');
