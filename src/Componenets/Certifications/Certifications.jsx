@@ -1,28 +1,34 @@
 import React from 'react'
 import "./Certification.css"
-import {Swiper, SwiperSlide, } from 'swiper/react'
+import { Swiper, SwiperSlide, } from 'swiper/react'
 import { Pagination, Autoplay } from 'swiper'
 import 'swiper/css';
 import 'swiper/css/pagination'
-import {HtmlCertification, Kaggle, React_TCS} from "../../Assets/Images"
+import { HtmlCertification, Kaggle, React_TCS, SIHCertification } from "../../Assets/Images"
 
 const Certifications = () => {
   const data = [
     {
       id: 1,
-      title: 'TCS AsCenD',
+      title: 'SIH Winner',
+      Img: SIHCertification,
+      Org: 'Smart India Hackathon'
+    },
+    {
+      id: 1,
+      title: 'React Based UI Development Concepts',
       Img: React_TCS,
-      Org: 'TCS' 
+      Org: 'TCS'
     },
     {
       id: 2,
-      title: 'HTML',
+      title: 'HTML Essential Training',
       Img: HtmlCertification,
       Org: 'Linkedln Learning'
     },
     {
       id: 3,
-      title: 'Certification Title',
+      title: 'Intro to Programming',
       Img: Kaggle,
       Org: 'Kaggle'
     }
@@ -33,29 +39,29 @@ const Certifications = () => {
       <h2>Certifications</h2>
 
       <Swiper className='container certification__container'
-        modules={[Pagination, Autoplay]} 
+        modules={[Pagination, Autoplay]}
         spaceBetween={20}
         slidesPerView={1}
         autoplay={{
-          delay:2500,
+          delay: 2500,
           disableOnInteraction: true
         }}
-        scrollbar={{draggable:true}}
-        pagination={{clickable: true}}
-        >
-          {
-            data.map(({title,Img,Org},id) => {
-              return (
-                <SwiperSlide key={id} className='certifications'>
-                  <div className='certificate__image'>
-                    <img src={Img} alt='Certificate image'/>
-                  </div>
-                  <h4 className='certification__name'>{title}</h4>
-                  <small className='certification__from'>{Org}</small>
-                </SwiperSlide>
-              )
-            })
-          }
+        scrollbar={{ draggable: true }}
+        pagination={{ clickable: true }}
+      >
+        {
+          data.map(({ title, Img, Org }, id) => {
+            return (
+              <SwiperSlide key={id} className='certifications'>
+                <div className='certificate__image'>
+                  <img src={Img} alt='Certificate image' />
+                </div>
+                <h4 className='certification__name'>{title}</h4>
+                <small className='certification__from'>{Org}</small>
+              </SwiperSlide>
+            )
+          })
+        }
       </Swiper>
     </section>
   )
