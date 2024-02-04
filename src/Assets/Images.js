@@ -14,3 +14,4 @@ export const MileMarker = require('../Assets/Portfolio/MileMarker.png');
 export const HtmlCertification = require('../Assets/Certificates/HtmlCertification.png');
 export const Kaggle = require('../Assets/Certificates/Kaggle.png');
 export const React_TCS = require('../Assets/Certificates/React_TCS.png');
+export const SIHCertification = require('../Assets/Certificates/SIH.jpg')
