@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fb1f6b71.css",
-    "main.js": "/portfolio/static/js/main.b39cadc4.js",
+    "main.js": "/portfolio/static/js/main.3b60c316.js",
     "static/js/787.121b6d2f.chunk.js": "/portfolio/static/js/787.121b6d2f.chunk.js",
     "static/media/SIH.jpg": "/portfolio/static/media/SIH.362fd2926140995e045d.jpg",
     "static/media/FitnessClub.png": "/portfolio/static/media/FitnessClub.d4c0bcd83e46e03fbe1d.png",
     "static/media/Spotify.png": "/portfolio/static/media/Spotify.23c1e3696f13c4ba595a.png",
     "static/media/ExpoMap.png": "/portfolio/static/media/ExpoMap.efcfc55454c112a836d1.png",
     "static/media/TypoTune.png": "/portfolio/static/media/TypoTune.d6a7e4de83804758715a.png",
-    "static/media/RoopamCV.pdf": "/portfolio/static/media/RoopamCV.156ca1e97bc6eeb3786f.pdf",
     "static/media/MileMarker.png": "/portfolio/static/media/MileMarker.f82d0a5a41b449247e70.png",
+    "static/media/RoopamCV.pdf": "/portfolio/static/media/RoopamCV.d366bb34d1311a7bea87.pdf",
     "static/media/ProfileImage.png": "/portfolio/static/media/ProfileImage.ca65845117e5c45b645b.png",
     "static/media/React_TCS.png": "/portfolio/static/media/React_TCS.387073451f24713b2b20.png",
     "static/media/BlogApp.png": "/portfolio/static/media/BlogApp.8b7ddd52ae6ae99de524.png",
@@ -25,11 +25,11 @@
     "static/media/ProfileImg.png": "/portfolio/static/media/ProfileImg.524f067266d29f34bb7e.png",
     "index.html": "/portfolio/index.html",
     "main.fb1f6b71.css.map": "/portfolio/static/css/main.fb1f6b71.css.map",
-    "main.b39cadc4.js.map": "/portfolio/static/js/main.b39cadc4.js.map",
+    "main.3b60c316.js.map": "/portfolio/static/js/main.3b60c316.js.map",
     "787.121b6d2f.chunk.js.map": "/portfolio/static/js/787.121b6d2f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb1f6b71.css",
-    "static/js/main.b39cadc4.js"
+    "static/js/main.3b60c316.js"
   ]
 }
